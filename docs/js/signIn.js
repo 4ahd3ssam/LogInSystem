@@ -58,7 +58,7 @@ function signIn() {
         activeUser = isUserExists();
         successMsg("Successfully signed in!");
         localStorage.setItem("activeUser", JSON.stringify(activeUser));
-        window.location.href = "../home.html";
+        window.location.href = "home.html";
     }
     else {
         finalMsg.classList.replace("text-success", "text-danger");
