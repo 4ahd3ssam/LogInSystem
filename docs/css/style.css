@@ -44,5 +44,3 @@ body:has(#password:focus) #passwordContainer::after,
 body:has(#confirmedPassword:focus) #confirmedPasswordContainer::after {
     width: 100%;
 }
-
-input[password]::-ms-reveal {display : none ;}
