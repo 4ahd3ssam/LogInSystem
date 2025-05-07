@@ -1,7 +1,7 @@
 var activeUser = JSON.parse(localStorage.getItem("activeUser"));
 
 if (!activeUser) {
-    window.location.replace("../signIn.html");
+    window.location.replace("/signIn.html");
 }
 var welcomeMsg = document.getElementById("welcomeMsg");
 var logOutBtn = document.getElementById("logOut");
