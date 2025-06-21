@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asstes/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <main class="vh-100">
+        <div class="container h-100 py-5 d-flex justify-content-center align-items-center">
+            <div class="row g-0 w-100">
+                <div class="col-12 col-md-7">
+                    <div class="form-bg p-5 w-100">
+                        <h1 class="text-white mb-4 fs-3 fw-bold">Sign Up</h1>
+                        <form action="">
+                            <div class="input-container position-relative" id="userNameContainer">
+                                <input type="text" class="form-control" id="userName" placeholder="Name">
+                            </div>
+                            <p id="name-msg" class="text-success fs-12 my-2"></p>
+                            <div class="input-container position-relative" id="emailContainer">
+                                <input type="email" class="form-control" id="email" placeholder="Email address">
+                            </div>
+                            <p id="email-msg" class="text-success fs-12 my-2"></p>
+                            <div class="d-flex position-relative input-container position-relative"
+                                id="passwordContainer">
+                                <input type="password" class="form-control" id="password" placeholder="Password">
+                                <i
+                                    class="passwordIcon fa-solid fa-eye text-secondary position-absolute end-0 top-50 translate-middle-y pe-2"></i>
+                            </div>
+                            <p id="pwd-msg" class="text-success fs-12 my-2"></p>
+
+                            <div class="d-flex position-relative input-container position-relative"
+                                id="confirmedPasswordContainer">
+                                <input type="password" class="form-control" id="confirmedPassword"
+                                    placeholder="Confirm Password">
+                                <i
+                                    class="passwordIcon fa-solid fa-eye text-secondary position-absolute end-0 top-50 translate-middle-y pe-2"></i>
+                            </div>
+                            <p id="confpwd-msg" class="text-success fs-14 my-2"></p>
+                            <p id="final-msg" class="text-success fw-bold mb-2"></p>
+                            <button id="form-btn" class="btn btn-secondary rounded-0 px-5"
+                                onclick="addUser()">Ok</button>
+                            <p class="text-white fs-14 mt-2">You already have an account ? <a href="signIn.html">Sign
+                                    In</a></p>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <div class="d-flex justify-content-center align-items-center w-100 h-100 bg-white bg-opacity-75">
+                        <img src="images/clip-message-sent 1.png" class="w-100 d-block" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signUp.js"></script>
+    <script src="js/passwordView.js"></script>
+
+</body>
+
+</html>
